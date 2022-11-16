@@ -2,7 +2,7 @@ import re
 
 INTEGER_PATTERN = re.compile("^-?[0-9]+$")
 DOUBLE_PATTERN = re.compile("^-?\\d+[,.]\\d+$")
-NAME_PATTERN = re.compile("^[a-zA-z][a-zA-z0-9-_]{2,19}$")
+NAME_PATTERN = re.compile("^[a-zA-z q][a-zA-z0-9-_]{2,19}$")
 
 
 def is_valid_integer(string):
